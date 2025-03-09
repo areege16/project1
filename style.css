@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@400;700&display=swap');
+
+body, html {
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-optical-sizing: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Alexandria, sans-serif;
+     text-align: center;
+     background-color: #111;
+     color: white;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+
+}
+.nav_container {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin-block: 3em;
+}
+.container {
+    z-index: 2;
+    width: 100%;
+    max-width: 1640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+.nav {
+    grid-column-gap: 20px;
+    flex: none;
+    justify-content: flex-start;
+    align-items: center;
+    width: 58.3333%;
+    display: flex;
+}
+.nav-menu {
+    position: relative;
+}
+.navl {
+    color: var(--white);
+    flex: none;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 100%;
+    transition: color .2s;
+}
+.nav-link {
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+
+.button.font{
+    flex: none;
+    font-weight: 400;
+}
+.btn {
+    color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    border: 0;
+    border-radius: 24px;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.button {
+    background-color: #00c6fd;
+    color: #111;
+     text-align: center;
+     border-style: none;
+     padding: 16px 24px;
+     font-size: 14px;
+     font-weight: 600;
+     line-height: 100%;
+     transition: background-color .2s;
+ }
+ .section1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.stat-box {
+    background: #222;
+    padding: 60px;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.counter {
+    font-size: 40px;
+    font-weight: bold;
+    color: #00c6fd;
+}
+
+
+
+.section2{
+    z-index: 3;
+    padding-top: 148px;
+    padding-bottom: 180px;
+}
+.ContainerSection2{
+    z-index: 2;
+    /* width: 100%; */
+    max-width: 1640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+}
+
+.TittleOfsection2{
+border-bottom: 1px solid #ffffff29;
+justify-content: space-between;
+align-items: flex-end;
+width: 100%;
+padding-bottom: 16px;
+display: flex;
+position: relative;
+ }
+ 
+
+ .buttonSection2{
+    background-color: #00c6fd;
+    color: var(--black);
+    text-align: center;
+    border-style: none;
+    border-radius: 24px;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 100%;
+    transition: background-color .2s;
+    color: black;
+    cursor: pointer;
+}
+ .buttonSection2:hover{
+    background-color: white;
+ }
+
+
+
+.ContainerImgSec2 {
+    padding: 20px;
+}
+.ContainerImgSec2 a{
+        text-decoration: none;
+        color: white;
+}
+.FourCols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    justify-content: center;
+}
+
+.imgColumn {
+    padding: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.imgInContainerImgSec2 img {
+    width: 100%;
+    height: 25em;
+    border-radius: 10px;
+}
+
+.discriptionImg_ContainerImgSec2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.discriptionImg_ContainerImgSec2 .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.discriptionImg_ContainerImgSec2 .info {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #bbb;
+    flex-direction: column;
+    line-height: 100%;
+    
+
+}
+.info p {
+margin: 0;
+}
